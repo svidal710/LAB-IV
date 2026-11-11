@@ -1,0 +1,18 @@
+{
+  "productos": [
+    { "id": 1, "nombre": "Cuaderno argollado", "precio": 8500, "stock": 40 },
+    { "id": 2, "nombre": "Lapicero negro", "precio": 1500, "stock": 120 }
+  ],
+  "clientes": [
+    { "id": 1, "nombre": "Ana Torres", "telefono": "3001234567", "email": "ana@correo.com" }
+  ],
+  "proveedores": [
+    { "id": 1, "nombre": "Papelería Andina", "telefono": "3109876543", "ciudad": "Bogotá" }
+  ],
+  "compras": [
+    { "id": 1, "proveedor": "Papelería Andina", "producto": "Cuaderno argollado", "cantidad": 50, "total": 300000 }
+  ],
+  "ventas": [
+    { "id": 1, "cliente": "Ana Torres", "producto": "Lapicero negro", "cantidad": 3, "total": 4500 }
+  ]
+}
